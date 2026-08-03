@@ -1,0 +1,17 @@
+// Assertions live in the comments: `<- scope` checks the marker's own column
+// on the previous non-comment line, `^ scope` checks the caret's. Scopes
+// match by prefix, so the trailing `.kdl` segment is left off.
+
+package name="demo" {
+// <- support.type
+//            ^ string
+//                  ^ punctuation.definition.children.begin.bracket.curly
+
+  version 2
+//        ^ constant.numeric
+
+}
+// <- punctuation.definition.children.end.bracket.curly
+
+// a comment
+// <- comment

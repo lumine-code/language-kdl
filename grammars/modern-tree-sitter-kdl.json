@@ -1,0 +1,23 @@
+{
+  "name": "KDL",
+  "scopeName": "source.kdl",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-kdl",
+  "injectionRegex": "^(kdl)$",
+  "fileTypes": ["kdl"],
+  "comments": {
+    "start": "/ "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:tree-sitter-grammars/tree-sitter-kdl#v1.1.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-kdl/tree-sitter-kdl.wasm",
+    "localsQuery": "tree-sitter-kdl/locals.scm",
+    "highlightsQuery": "tree-sitter-kdl/highlights.scm",
+    "foldsQuery": "tree-sitter-kdl/folds.scm",
+    "indentsQuery": "tree-sitter-kdl/indents.scm"
+  }
+}
