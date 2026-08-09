@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("KDL Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-kdl");
+    await lumine.packages.activatePackage("language-kdl");
   });
 
   it("tokenizes the fixture", async () => {
