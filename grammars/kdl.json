@@ -3,7 +3,7 @@
   "scopeName": "source.kdl",
   "type": "tree-sitter",
   "parser": "tree-sitter-kdl",
-  "injectionRegex": "^(kdl)$",
+  "injectionNames": ["kdl"],
   "fileTypes": ["kdl"],
   "comments": {
     "start": "/ "
@@ -14,10 +14,10 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter-grammars/tree-sitter-kdl#v1.1.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-kdl/tree-sitter-kdl.wasm",
-    "localsQuery": "tree-sitter-kdl/locals.scm",
-    "highlightsQuery": "tree-sitter-kdl/highlights.scm",
-    "foldsQuery": "tree-sitter-kdl/folds.scm",
-    "indentsQuery": "tree-sitter-kdl/indents.scm"
+    "grammar": "kdl.wasm",
+    "localsQuery": "kdl-locals.scm",
+    "highlightsQuery": "kdl-highlights.scm",
+    "foldsQuery": "kdl-folds.scm",
+    "indentsQuery": "kdl-indents.scm"
   }
 }
