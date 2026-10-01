@@ -17,6 +17,7 @@
     "grammar": "kdl.wasm",
     "localsQuery": "kdl-locals.scm",
     "highlightsQuery": "kdl-highlights.scm",
+    "injectionsQuery": "kdl-injections.scm",
     "foldsQuery": "kdl-folds.scm",
     "indentsQuery": "kdl-indents.scm"
   }
