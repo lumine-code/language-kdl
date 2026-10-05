@@ -1,0 +1,29 @@
+{
+  "source.kdl": {
+    "text": "server \"main\" port=8080 {\n route \"/\"\n}\n/- ignored true\nsettings /- obsolete=true enabled=true\n",
+    "symbols": [
+      {
+        "name": "server",
+        "tag": "object"
+      },
+      {
+        "name": "port",
+        "tag": "property"
+      },
+      {
+        "name": "route",
+        "tag": "object"
+      },
+      {
+        "name": "settings",
+        "tag": "object"
+      },
+      {
+        "name": "enabled",
+        "tag": "property"
+      }
+    ],
+    "absent": ["main", "ignored", "obsolete"],
+    "only": true
+  }
+}

@@ -19,6 +19,7 @@
     "highlightsQuery": "kdl-highlights.scm",
     "injectionsQuery": "kdl-injections.scm",
     "foldsQuery": "kdl-folds.scm",
-    "indentsQuery": "kdl-indents.scm"
+    "indentsQuery": "kdl-indents.scm",
+    "tagsQuery": "kdl-tags.scm"
   }
 }
