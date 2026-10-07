@@ -3,11 +3,12 @@
   (#set! kdl.dismissSymbol true))
 
 (node
-  . (identifier) @name
+  .
+  name: (identifier) @name
   (#is-not? test.descendantOfNodeWithData "kdl.dismissSymbol")
   (#set! symbol.strip "^\"|\"$")) @definition.object
 
-(prop (identifier) @name
+(prop key: (identifier) @name
   (#is-not? test.descendantOfType "node_field_comment")
   (#is-not? test.descendantOfNodeWithData "kdl.dismissSymbol")
   (#set! symbol.strip "^\"|\"$")) @definition.property

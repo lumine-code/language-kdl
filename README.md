@@ -5,7 +5,7 @@ KDL language support.
 ## Features
 
 - **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-kdl](https://github.com/tree-sitter-grammars/tree-sitter-kdl).
-- **Syntax highlighting**: nodes, arguments, properties, type annotations and the slash-dash comment forms.
+- **Syntax highlighting**: KDL 1 and KDL 2 nodes, arguments, properties, type annotations, raw and multiline strings, and slash-dash comments.
 - **Folding**: folds child blocks.
 - **Locals**: resolves node and property names.
 
