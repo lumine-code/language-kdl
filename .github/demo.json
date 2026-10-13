@@ -1,0 +1,16 @@
+{
+  "title": "language-kdl",
+  "description": "KDL syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "aae380d0442b9489ba8743159a2037d54dafd560",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "KDL syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}

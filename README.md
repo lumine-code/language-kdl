@@ -9,6 +9,8 @@ KDL language support.
 - **Folding**: folds child blocks.
 - **Locals**: resolves node and property names.
 
+![KDL syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-kdl` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-kdl`.
