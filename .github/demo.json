@@ -1,16 +1,61 @@
 {
   "title": "language-kdl",
-  "description": "KDL syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "aae380d0442b9489ba8743159a2037d54dafd560",
+  "description": "KDL syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "6d6bd62a262b529925d92b026b050a7f5a920b02",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "f10f615f8505edae2736c064743c92af9282480bda07e7cbee088fe63ec17aa8",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "6d6bd62a262b529925d92b026b050a7f5a920b02",
+      "dirty": true,
+      "workingTreeHash": "aa79ace59a4fc0a8fd394ac98cac378c06c0ac3abd814227812d2530cf985e59"
+    },
+    "language-kdl": {
+      "revision": "6d6bd62a262b529925d92b026b050a7f5a920b02",
+      "dirty": true,
+      "workingTreeHash": "aa79ace59a4fc0a8fd394ac98cac378c06c0ac3abd814227812d2530cf985e59"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.kdl",
+      "sha256": "41a4ec1aaa4a47aecb97a681f72c5b9d86113b9dee96b831f9556e24f08cccef"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "KDL syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "7be35c559f16403808bd2c88dfde9b7ef1b1b6ac720ff562e0841fa74f62ff77"
     }
   ]
 }
