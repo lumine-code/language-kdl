@@ -54,12 +54,10 @@
 
 ; Comments
 
-[
-  (single_line_comment)
-  (multi_line_comment)
-  (version)
-] @comment.line.kdl @_IGNORE_.spell
+(single_line_comment) @comment.line.kdl @_IGNORE_.spell
+(multi_line_comment) @comment.block.kdl @_IGNORE_.spell
+(version) @comment.other.kdl @_IGNORE_.spell
 
-(node_comment) @comment.line.kdl
-(node_field_comment) @comment.line.kdl
-(node_children_comment) @comment.line.kdl
+(node_comment) @comment.block.kdl
+(node_field_comment) @comment.block.kdl
+(node_children_comment) @comment.block.kdl
