@@ -36,6 +36,14 @@ describe("language-kdl conservative indentation", () => {
     for (const source of ['node "{"', "node {}", "// {"]) await enter(source, 0);
   });
 
+  it("recognizes raw-string recovery without hiding actual child blocks", async () => {
+    for (const source of ['node #"{', 'node ##"text {', 'node #"quoted " text {'])
+      await enter(source, 0);
+    await enter('node {\n  child #"{', 2, 1);
+    await enter('node #"{"# {', 2);
+    await enter('node ##"{"## {', 2);
+  });
+
   it("preserves whitespace inside multiline literals and comments when reindenting", async () => {
     const source =
       'node """\n    first\n       indented\n    last\n    """\n/* head\n       aligned\n*/';
