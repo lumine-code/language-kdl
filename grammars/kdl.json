@@ -22,6 +22,7 @@
     "injectionsQuery": "kdl-injections.scm",
     "foldsQuery": "kdl-folds.scm",
     "indentsQuery": "kdl-indents.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "kdl-tags.scm"
   }
 }
